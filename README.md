@@ -20,12 +20,12 @@ Este projeto demonstra como uma rede neural artificial simples pode aprender a c
 O objetivo é utilizar uma abordagem baseada em aprendizado profundo (deep learning) para modelar a relação linear entre Celsius e Fahrenheit. A motivação é didática: mostrar, mesmo em um problema simples e resolvível por uma fórmula exata, como as redes neurais são capazes de identificar padrões e relações matemáticas por meio de dados.
 
 # ✅ Resultados Técnicos Alcançados
-Modelo implementado: Rede neural com uma única camada densa (Dense) utilizando Keras (API do TensorFlow).
+Arquitetura: Rede neural simples com uma camada densa (Dense), desenvolvida com Keras (API do TensorFlow).
 
-Funcionalidade: Previsão de temperatura em Fahrenheit com base em valores de Celsius fornecidos como entrada.
+Objetivo: Realizar a conversão de temperaturas de Celsius para Fahrenheit com base em valores fornecidos como entrada.
 
-Precisão: O modelo foi treinado até convergir para uma regressão próxima da fórmula exata (F = 1.8 × C + 32).
+Desempenho: O modelo foi treinado até convergir para uma regressão linear próxima da fórmula exata de conversão: F = 1.8 + 31.47
 
-Visualizações: Gráficos de dispersão entre os dados reais e as previsões, além do histórico de perda durante o treinamento.
+Curva de perda (loss) ao longo das épocas de treinamento, evidenciando a convergência do modelo.
 
-Insight: Mesmo problemas simples podem ser abordados com aprendizado de máquina, servindo como ponto de partida para aplicações mais complexas.
+Insight Relevante: Este experimento demonstra como problemas simples podem ser abordados por meio de redes neurais, servindo como um exemplo introdutório prático de aprendizado supervisionado e uma base para aplicações mais complexas.
